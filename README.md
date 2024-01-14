@@ -1,5 +1,9 @@
 # HensHouse scoop bucket
 
+<!-- Uncomment the following line after replacing placeholders -->
+[![Tests](https://github.com/henshouse/henshouse-scoop/actions/workflows/ci.yml/badge.svg)](https://github.com/henshouse/henshouse-scoop/actions/workflows/ci.yml) [![Excavator](https://github.com/henshouse/henshouse-scoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/henshouse/henshouse-scoop/actions/workflows/excavator.yml)
+
+
 scoop.sh bucket with not only Henshouse software
 
 ## How do I add this bucket?
