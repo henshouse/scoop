@@ -9,7 +9,7 @@
             "hash": "AA4D5C0C6BAFA780FCE7B02949FC0B78D52B2A25065D76ED4D06ACBE4CD46400"
         }
     },
-    "bin": "tf2-bot-kicker-gui.exe", 
+    "bin": "tf2-bot-kicker-gui.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
