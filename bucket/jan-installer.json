@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/janhq/jan/releases/download/v0.4.3/jan-win-x64-0.4.3.exe#/jan-installer.exe",
-            "hash": "61F535289B2EE82640DF5FF05D47DA247DF98B15CF4A4E462B10B5B27A95A3D4"
+            "hash": "579a5d5c91f7ddb52b58d73c12d538fa30136a6b58660aa22007d7a65489c217"
         }
     },
     "bin": "jan-installer.exe",
