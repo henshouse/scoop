@@ -1,6 +1,6 @@
 {
     "version": "1.2.3",
-    "description": " An automatic Bot Detector and kicking software for TF2",
+    "description": "An automatic Bot Detector and kicking software for TF2",
     "homepage": "https://github.com/Bash-09/tf2-bot-kicker-gui",
     "license": "MIT license",
     "architecture": {
