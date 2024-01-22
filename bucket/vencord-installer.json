@@ -25,5 +25,6 @@
             "VencordInstaller.exe",
             "Vencord Installer"
         ]
-    ]
+    ],
+    "bin": "VencordInstaller.exe"
 }
