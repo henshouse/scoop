@@ -1,20 +1,20 @@
 {
-    "version": "7.3.11",
+    "version": "7.4.1",
     "description": "Cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language, and a framework for processing cmdlets.",
     "homepage": "https://github.com/PowerShell/PowerShell/",
     "license": "MIT license",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.11/PowerShell-7.3.11-win-x64.zip",
-            "hash": "5CBB246956EC9E436323E308A526AC9411335629EB14DC4BFB46841989016720"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/PowerShell-7.4.1-win-x64.zip",
+            "hash": "32dfa0d6b59538e28631549f04d3f74f3d3a24bc6eaf3aa7ab0b74f94ecc026e"
         },
         "32bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.11/PowerShell-7.3.11-win-x86.zip",
-            "hash": "C8FBFC1B2D33F9BE607372901E5AE4CD93C82D7CC850DCC54B31440EAA0177CF"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/PowerShell-7.4.1-win-x86.zip",
+            "hash": "55f6ca98c8bedc1436e0b16a6a5522caf68f2d7b27312b640dee071e3596e3af"
         },
         "arm64": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.11/PowerShell-7.3.11-win-arm64.zip",
-            "hash": "1EE38864F748A47B0BB460EFD4E679D9771B13EC96874922269538904CB8FDB8"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/PowerShell-7.4.1-win-arm64.zip",
+            "hash": "086ffc7a2cef14b3412f4240afaed075f5bb6dafe3090da61c72a39e3171a47c"
         }
     },
     "bin": "pwsh.exe",
