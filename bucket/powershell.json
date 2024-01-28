@@ -3,6 +3,9 @@
     "description": "Cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language, and a framework for processing cmdlets.",
     "homepage": "https://microsoft.com/PowerShell",
     "license": "MIT license",
+    "checkver": {
+        "url": "https://github.com/PowerShell/PowerShell/"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.11/PowerShell-7.3.11-win-x64.zip",
