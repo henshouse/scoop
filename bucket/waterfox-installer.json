@@ -1,7 +1,7 @@
 {
     "version": "G6.0.7",
     "description": "Fast and Private Web Browser based on Firefox.",
-    "homepage": "https://github.com/WaterfoxCo/Waterfox/",
+    "homepage": "https://www.waterfox.net/",
     "license": "https://github.com/WaterfoxCo/Waterfox/blob/current/LICENSE",
     "architecture": {
         "64bit": {
@@ -14,14 +14,17 @@
         }
     },
     "bin": "waterfox-installer.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/WaterfoxCo/Waterfox",
+        "regex": "G([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn1.waterfox.net/waterfox/releases/$version/WINNT_x86_64/Waterfox%20Setup%20$version.exe#/waterfox-installer.exe"
+                "url": "https://cdn1.waterfox.net/waterfox/releases/G$version/WINNT_x86_64/Waterfox%20Setup%20G$version.exe#/waterfox-installer.exe"
             },
             "32bit": {
-                "url": "https://cdn1.waterfox.net/waterfox/releases/$version/WINNT_x86_64/Waterfox%20Setup%20$version.exe#/waterfox-installer.exe"
+                "url": "https://cdn1.waterfox.net/waterfox/releases/G$version/WINNT_x86_64/Waterfox%20Setup%20G$version.exe#/waterfox-installer.exe"
             }
         }
     }
