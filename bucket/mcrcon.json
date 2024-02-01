@@ -1,0 +1,28 @@
+{
+    "version": "0.7.1",
+    "description": "Rcon client for Minecraft",
+    "homepage": "https://github.com/Tiiffi/mcrcon/",
+    "license": "Zlib license",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.1/mcrcon-0.7.1-windows-x86-32.zip",
+            "hash": "2838d3f0b81edafc7ca37dede24cad4e5bf62562faa2629ce5b95a90212eb57a"
+        },
+        "32bit": {
+            "url": "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.1/mcrcon-0.7.1-windows-x86-32.zip",
+            "hash": "2838d3f0b81edafc7ca37dede24cad4e5bf62562faa2629ce5b95a90212eb57a"
+        }
+    },
+    "bin": "mcrcon.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Tiiffi/mcrcon/releases/download/v$version/mcrcon-$version-windows-x86-64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Tiiffi/mcrcon/releases/download/v$version/mcrcon-$version-windows-x86-32.zip"
+            }
+        }
+    }
+}
