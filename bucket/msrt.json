@@ -10,7 +10,6 @@
     "regex": "<p style=\"overflow-wrap:break-word\">(\\d+\\.\\d+)</p>"
   },
   "autoupdate": {
-    "url": "https://download.microsoft.com/download/2/C/5/2C5XXXXX/Windows-KB890830-x64-V$version.exe",
-    "regex": "<p style=\"overflow-wrap:break-word\">($version)</p>"
+    "url": "https://download.microsoft.com/download/2/C/5/2C5XXXXX/Windows-KB890830-x64-V$version.exe"
   }
 }
