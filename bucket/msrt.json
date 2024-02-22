@@ -24,13 +24,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$Version.exe#/msrt.exe"
+        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$cleanVersion.exe#/msrt.exe"
       },
       "32bit": {
-        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$Version.exe#/msrt.exe"
+        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$cleanVersion.exe#/msrt.exe"
       },
       "arm64": {
-        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$Version.exe#/msrt.exe"
+        "url": "https://download.microsoft.com/download/2/C/5/2C563B99-54D9-4D85-A82B-45D3CD2F53CE/Windows-KB890830-x64-V$cleanVersion.exe#/msrt.exe"
       }
     }
   }
