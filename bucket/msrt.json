@@ -19,7 +19,7 @@
   },
   "checkver": {
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=9905",
-    "regex": ">(\\d+\\.\\d+)<"
+    "regex": "<p style=\"overflow-wrap:break-word\">(\\d+\\.\\d+)</p>"
   },
   "autoupdate": {
     "architecture": {
