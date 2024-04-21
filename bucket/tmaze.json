@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/ur-fault/TMaze/releases/download/1.14.3/tmaze-1.14.3-win-x86_64.exe#/tmaze.exe",
             "hash": "5589d81db9b5fcb8663ab2f86f373e77439ef4030653d134ef2cf4fb96a12a81"
+        },
+        "32bit": {
+            "url": "https://github.com/ur-fault/TMaze/releases/download/1.14.3/tmaze-1.14.3-win-x86_64.exe#/tmaze.exe",
+            "hash": "5589d81db9b5fcb8663ab2f86f373e77439ef4030653d134ef2cf4fb96a12a81"
         }
     },
     "bin": "tmaze.exe",
@@ -14,7 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ur-fault/TMaze/releases/download/$version/tmaze-$version-win-x86_64.exe#/tmaze.exe"
+                "url": "https://github.com/ur-fault/TMaze/releases/download/$version/tmaze_windows-x86_64_$version.exe#/tmaze.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ur-fault/TMaze/releases/download/$version/tmaze_windows-x86_$version.exe#/tmaze.exe"
             }
         }
     }
