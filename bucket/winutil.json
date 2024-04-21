@@ -1,10 +1,10 @@
 {
-    "version": "4a7c8a35bf2e874579504fb81d5b3589823da7a0",
+    "version": "ad080f267e8531390398c21a2ccae56ab275faba",
     "bin": "winutil.ps1",
     "license": "MIT license",
     "homepage": "https://github.com/ChrisTitusTech/winutil/blob/main/winutil.ps1",
     "url": "https://github.com/ChrisTitusTech/winutil/raw/main/winutil.ps1",
-    "hash": "4bbca171332828473805bf8aeae2fa9df0b2c57800a16b868fcb870aa99fbff0",
+    "hash": "5e530c6a58b7be0864a282eed90df14822596ad0e8131fc9c83072afb4a3a226",
     "checkver": {
         "url": "https://api.github.com/repos/ChrisTitusTech/winutil/commits/main",
         "regex": "\"sha\"\\s*:\\s*\"([^\"]+)\""
