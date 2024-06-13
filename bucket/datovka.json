@@ -1,5 +1,6 @@
 {
     "version": "4.23.8",
+    "description": " Datovka je multiplatformní desktopová aplikace pro přístup k datovým schránkám a k trvalému uchovávání datových zpráv v lokální databázi. ",
     "license": "GPL-3",
     "homepage": "https://www.datovka.cz/",
     "architecture": {
