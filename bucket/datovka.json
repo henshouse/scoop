@@ -1,25 +1,23 @@
 {
-    "version": "4.23.7",
+    "version": "4.23.8",
     "license": "GPL-3",
     "homepage": "https://www.datovka.cz/",
-    "url": "https://secure.nic.cz/files/datove_schranky/4.23.7/datovka-portable-4.23.7-windows-x64.zip",
-    "hash": "14f93177eb0b9f61ea5d146203a129d94baa30091e80dacdcc72cab461305a72",
-    "extract_dir": ["datovka-4.23.7-portable"],
+    "url": "https://secure.nic.cz/files/datove_schranky/4.23.8/datovka-portable-4.23.8-windows-x64.zip",
+    "hash": "16044406bde4502495a5d9934537e30447af30b667f0e49cdb48a89a5b30b1e5",
+    "extract_dir": "datovka-4.23.8-portable",
     "shortcuts": [
         [
             "datovka-portable.exe",
             "Datovka"
         ]
     ],
-    "persist":[
-        ".dsgui"
-    ],
+    "persist": ".dsgui",
     "checkver": {
         "url": "https://www.datovka.cz/cs/pages/instalace.html",
         "regex": "Instalační balíčky verze\\s(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
         "url": "https://secure.nic.cz/files/datove_schranky/$version/datovka-portable-$version-windows-x64.zip",
-        "extract_dir": ["datovka-$version-portable"]
+        "extract_dir": "datovka-$version-portable"
     }
 }
