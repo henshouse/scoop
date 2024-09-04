@@ -23,7 +23,6 @@
             "32bit": {
                 "url": "https://github.com/Tiiffi/mcrcon/releases/download/v$version/mcrcon-$version-windows-x86-32.zip"
             }
-        },
-        "bin": "mcrcon.exe"
+        }
     }
 }
