@@ -16,16 +16,16 @@
     "bin": "waterfox-installer.exe",
     "checkver": {
         "github": "https://github.com/WaterfoxCo/Waterfox",
-        "regex": "G([\\d.]+)"
+        "regex": "([\\d.]+)"
     },
     "post_install": "waterfox-installer",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn1.waterfox.net/waterfox/releases/G$version/WINNT_x86_64/Waterfox%20Setup%20G$version.exe#/waterfox-installer.exe"
-            },
-            "32bit": {
-                "url": "https://cdn1.waterfox.net/waterfox/releases/G$version/WINNT_x86_64/Waterfox%20Setup%20G$version.exe#/waterfox-installer.exe"
+                "url": "https://cdn1.waterfox.net/waterfox/releases/G$version/WINNT_x86_64/Waterfox%20Setup%20G$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$url.sha512"
+                }
             }
         }
     }
