@@ -15,7 +15,7 @@
     },
     "bin": "waterfox-installer.exe",
     "checkver": {
-        "github": "https://github.com/WaterfoxCo/Waterfox"
+        "github": "https://github.com/BrowserWorks/Waterfox"
     },
     "post_install": "waterfox-installer",
     "autoupdate": {
