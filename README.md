@@ -9,13 +9,13 @@ scoop.sh bucket with not only Henshouse software
 ## How do I add this bucket?
 
 ```pwsh
-scoop bucket add henshouse https://github.com/henshouse/henshouse-scoop
+scoop bucket add henshouse_scoop https://github.com/henshouse/scoop
 ```
 
 ## How do I install anything from here?
 
 ```pwsh
-scoop install henshouse/<manifestname>
+scoop install henshouse_scoop/<manifestname>
 ```
 
 ## How do I contribute new manifests?
